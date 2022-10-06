@@ -1,0 +1,8 @@
+import cv2
+
+path='D:/python/opencv/just_testing.jpg'
+image=cv2.imread(path)
+cv2.imshow('sample',image)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
